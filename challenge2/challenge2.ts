@@ -10,3 +10,16 @@ function countHours(year: number, holidays: string[]): number {
 
     return extraHours;
 }
+
+
+function optimizedCountHours(year: number, holidays: string[]): number {
+    const weekendDays = [0, 6];
+    let extraHours: number = 0;
+
+    holidays.forEach((holiday) => {
+        const dayOfTheWeek: number = new Date(`${holiday}/${year}`).getDay();
+        if (!weekendDays.includes(dayOfTheWeek)) extraHours += 2;
+    });
+
+    return extraHours;
+}
