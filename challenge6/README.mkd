@@ -3,7 +3,7 @@
 
 ***
 
-## Reto #5: Creando adornos navideños
+## Reto #6: Creando adornos navideños
 
 Una pareja de entusiastas de la navidad ha creado una empresa de adornos navideños. El primer adorno que quieren fabricar es un cubo que se pone en los árboles.
 
